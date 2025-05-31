@@ -2,6 +2,7 @@
 When the program is run, a turtle will draw the Olympics emblem along with the corresponding colors
 
 import turtle # Allows to use the turtle
+# cool comment
 
 wn = turtle.Screen()
 oly = turtle.Turtle() # sets the variable for the turtle
@@ -15,6 +16,7 @@ oly.pencolor("blue") # Setting the initial color to blue
 oly.penup() # going back to allow the turtle more space to put the emblem
 oly.back(200)
 oly.pendown()
+
 
 for rowOne in range(3): # A for loop to print three circles
 
