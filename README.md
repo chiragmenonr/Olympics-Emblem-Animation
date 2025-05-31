@@ -2,7 +2,6 @@
 When the program is run, a turtle will draw the Olympics emblem along with the corresponding colors
 
 import turtle # Allows to use the turtle
-# cool comment
 
 wn = turtle.Screen()
 oly = turtle.Turtle() # sets the variable for the turtle
