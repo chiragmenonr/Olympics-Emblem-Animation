@@ -1,6 +1,7 @@
 import turtle # Allows to use the turtle
 
 wn = turtle.Screen()
+wn.title("Olympics Emblem")
 oly = turtle.Turtle() # sets the variable for the turtle
 
 oly.hideturtle() # Hiding the ugly turtle from sight
