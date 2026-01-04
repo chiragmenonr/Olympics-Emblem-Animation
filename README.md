@@ -25,7 +25,7 @@ This Python program uses the built-in **`turtle`** graphics module to draw the *
 
 ---
 
-## Program Visualization
+## GIF of the Program
 
 The following GIF shows the turtle drawing the Olympic emblem step by step, transitioning from the top row of rings to the bottom row:
 
