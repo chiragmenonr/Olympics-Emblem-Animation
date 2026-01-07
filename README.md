@@ -1,66 +1,66 @@
-# Olympics Emblem (Python Turtle)
+# Clock Display (Python Turtle)
 
 ## Description
 
-This Python program uses the built-in **`turtle`** graphics module to draw the **Olympic rings emblem**. The program animates the drawing process by creating five colored circles arranged in the classic Olympic layout. Each ring is drawn using loops and precise turtle movements.
+This project is a Python program that uses the built-in **`turtle`** graphics module to create a visual **analog clock**. The program asks the user to input an hour and a minute, then draws a clock face and positions the hour and minute hands to match the entered time.
+
+The drawing process is even animated, allowing the viewer to see the clock being constructed step by step.
 
 ---
 
-## How It Works
+## Program Behavior
 
-1. A Turtle graphics window titled **"Olympics Emblem"** is created.
-2. The turtle is hidden and set to maximum drawing speed.
-3. The turtle moves into position to begin drawing.
-4. The program draws the **top row of three circles**:
-
-   * Blue
-   * Black
-   * Red
-5. The turtle repositions itself downward.
-6. The program draws the **bottom row of two circles**:
-
-   * Orange
-   * Green
-7. Each circle is created using small forward movements and rotations to form a smooth loop.
+* Prompts the user for an **hour** and **minute**
+* Draws a circular clock face
+* Adds 12 tick marks to represent the hours
+* Calculates correct angles for both clock hands
+* Draws the minute hand first, followed by the hour hand
+* Hides the turtle after the drawing is complete
 
 ---
 
-## Video of the Program
+## Visualization
 
-The following video shows the turtle drawing the Olympic emblem step by step, transitioning from the top row of rings to the bottom row:
+The animation below shows the clock face being drawn first, followed by a smooth transition to the minute hand and then the hour hand based on user input:
 
-https://github.com/user-attachments/assets/75c6b996-b630-4611-a47c-c6b29ea642ea
+[https://github.com/user-attachments/assets/your-gif-link-here](https://github.com/user-attachments/assets/your-gif-link-here)
+
+---
+
+## Angle Logic
+
+* Each minute corresponds to **6 degrees** of rotation (360° ÷ 60)
+* Each hour corresponds to **30 degrees**, with an additional adjustment based on the minutes
+
+This allows the hour hand to move smoothly between hour markers instead of jumping directly from one number to the next.
 
 ---
 
 ## Requirements
 
 * Python 3.x
-* Uses Python’s built-in `turtle` module
+* Python’s built-in `turtle` module
 
 ---
 
-## How to Run
+## Running the Program
 
-1. Ensure Python is installed.
-2. Save the code as `olympics_emblem.py`.
+1. Make sure Python is installed.
+2. Save the file as `clock_display.py`.
 3. Open a terminal or command prompt.
-4. Run:
+4. Run the program:
 
    ```bash
-   python olympics_emblem.py
+   python clock_display.py
    ```
-5. A new window will open and display the animated drawing.
+5. Enter an hour and minute when prompted to see the clock displayed.
 
 ---
 
-## Concepts Used
+## Concepts Demonstrated
 
-* Turtle graphics
-* For loops
-* Conditional statements (`if`, `else`)
-* Coordinate movement and positioning
-* Color control
-* Pen size and animation speed
-
----
+* Turtle graphics and animation
+* Loops and rotation
+* User input handling
+* Geometric reasoning with angles
+* Screen and turtle control
